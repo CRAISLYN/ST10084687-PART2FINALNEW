@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TimeManagementSystemDBModelStoreContainer" CdmEntityContainer="TimeManagementSystemDBEntities">
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="TimeManagementSystemDBModel.Cours">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="courseID" ColumnName="courseID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="courseName" ColumnName="courseName" />
+          <ScalarProperty Name="courseCode" ColumnName="courseCode" />
+          <ScalarProperty Name="credits" ColumnName="credits" />
+          <ScalarProperty Name="classHours" ColumnName="classHours" />
+          <ScalarProperty Name="semesterWeeks" ColumnName="semesterWeeks" />
+          <ScalarProperty Name="hoursRemaining" ColumnName="hoursRemaining" />
+          <ScalarProperty Name="selfStudyHoursPerWeek" ColumnName="selfStudyHoursPerWeek" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="month" ColumnName="month" />
+          <ScalarProperty Name="hoursWorked" ColumnName="hoursWorked" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="TimeManagementSystemDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

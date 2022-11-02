@@ -1,0 +1,45 @@
+﻿<Window x:Class="ProgPart2Final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPart2Final"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Center"
+               Height="434"
+               VerticalAlignment="Center"
+               Width="800"
+               Source="/dripWallpaper.jpg"
+               Stretch="UniformToFill" />
+        <Button Content="START"
+                HorizontalAlignment="Left"
+                Margin="322,170,0,0"
+                VerticalAlignment="Top"
+                Height="47"
+                Width="92"
+                Click="Button_Click"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="20" />
+        <Label Content="Student Time Management Program"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Height="48"
+               Width="460"
+               FontFamily="Arial Rounded MT Bold"
+               FontSize="24" />
+        <Label Content="Education is the most powerful weapon which you can use to change the world. ~ Nelson Mandela "
+               HorizontalAlignment="Center"
+               Margin="0,312,0,0"
+               VerticalAlignment="Top"
+               Width="716"
+               FontSize="14"
+               FontFamily="Arial Rounded MT Bold"
+               FontWeight="Bold" />
+
+    </Grid>
+</Window>
+

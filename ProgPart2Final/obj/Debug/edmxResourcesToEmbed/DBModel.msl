@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TimeManagementSystemDBModel1StoreContainer" CdmEntityContainer="TimeManagementSystemDBEntities1">
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="TimeManagementSystemDBModel1.Cours">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="courseID" ColumnName="courseID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="courseName" ColumnName="courseName" />
+          <ScalarProperty Name="courseCode" ColumnName="courseCode" />
+          <ScalarProperty Name="credits" ColumnName="credits" />
+          <ScalarProperty Name="classHours" ColumnName="classHours" />
+          <ScalarProperty Name="semesterWeeks" ColumnName="semesterWeeks" />
+          <ScalarProperty Name="hoursRemaining" ColumnName="hoursRemaining" />
+          <ScalarProperty Name="selfStudyHoursPerWeek" ColumnName="selfStudyHoursPerWeek" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Semesters">
+      <EntityTypeMapping TypeName="TimeManagementSystemDBModel1.Semester">
+        <MappingFragment StoreEntitySet="Semester">
+          <ScalarProperty Name="semID" ColumnName="semID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="month" ColumnName="month" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="hoursWorked" ColumnName="hoursWorked" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="TimeManagementSystemDBModel1.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
